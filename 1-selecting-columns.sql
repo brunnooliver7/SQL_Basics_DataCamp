@@ -52,7 +52,7 @@ FROM roles;
 
 -- Practice with COUNT
 
-SELECT count(*)
+SELECT COUNT(*)
 FROM people;
 
 SELECT COUNT(birthdate)
@@ -61,8 +61,8 @@ FROM people;
 SELECT COUNT(DISTINCT birthdate)
 FROM people;
 
-SELECT count(DISTINCT language)
+SELECT COUNT(DISTINCT language)
 FROM films;
 
-SELECT count(DISTINCT country)
+SELECT COUNT(DISTINCT country)
 FROM films;
